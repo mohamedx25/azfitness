@@ -13,7 +13,27 @@ const linkStyles = {
     alignItems: 'center'
 }
 class Header extends React.Component{
+    state = {
+        sideNavOpen: false
+    };
+
+    navMenuClickHandler = () =>{
+        this.setState((prevState) => {
+            return {sideNavOpen: !prevState.sideNavOpen}
+        });  
+    };
+
+    backdropClickHandler = () =>{
+        this.setState({sideNavOpen: false});
+    };
+    
     render(){
+        let sideNav;
+        let backdrop;
+        if(this.state.sideNavOpen){
+            sideNav = <SideNav />;
+            backdrop = <BackDrop click={this.backdropClickHandler}/>;
+        }
         return(
             <div className='header'>
                 <div className='header-logo'>
@@ -28,10 +48,10 @@ class Header extends React.Component{
                    </ul>
                 </div>
                 <div className='menu'>
-                    <Menu />
+                    <Menu navClickHandler={()=>this.navMenuClickHandler()}/>
+                    {sideNav}
                 </div>
-                <SideNav />
-                <BackDrop />
+                {backdrop}
             </div>
         );
     }

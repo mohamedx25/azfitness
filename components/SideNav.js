@@ -1,5 +1,5 @@
 import React from 'react'
-// import Menu from './Menu'
+import Menu from './Menu'
 import { Link } from 'gatsby'
 import './SideNav.css'
 
@@ -11,9 +11,11 @@ const sideBar = {
     alignItems: 'center'
 }
 
-const SideNav = () =>(
+const SideNav = props =>(
     <nav className='side-nav'>
-        
+        <div>
+            <Menu click={props.navClickHandler}/>
+        </div> 
         <div className='bar-nav'>
             <ul>
                 <li><Link to='/' style={sideBar}>Home</Link></li>

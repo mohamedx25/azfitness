@@ -3,6 +3,8 @@ import './Header.css'
 import logo from './images/logo.png'
 import { Link } from "gatsby"
 import Menu from './Menu'
+import SideNav from './SideNav'
+import BackDrop from './BackDrop.js'
 
 const linkStyles = {
     textDecoration: 'none',
@@ -25,7 +27,11 @@ class Header extends React.Component{
                         <li><Link to='/' style={linkStyles}>Contact</Link></li>
                    </ul>
                 </div>
-                <Menu />
+                <div className='menu'>
+                    <Menu />
+                </div>
+                <SideNav />
+                <BackDrop />
             </div>
         );
     }

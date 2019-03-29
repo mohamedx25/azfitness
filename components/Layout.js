@@ -2,15 +2,15 @@ import React from 'react'
 //import layout from './Layout.css'
 import Header from './Header.js'
 
-class Layout extends React.Component{
-    render(){
+export default ({ children }) =>{
+    // render(){
         return(
             <div>
                 <Header />
-               
+                {children}
             </div>
         );
-    }
+    // }
 }
 
-export default Layout;
+// export default Layout;

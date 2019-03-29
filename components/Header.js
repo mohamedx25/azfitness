@@ -5,6 +5,7 @@ import { Link } from "gatsby"
 import Menu from './Menu'
 import SideNav from './SideNav'
 import BackDrop from './BackDrop.js'
+import Video from './Video'
 
 const linkStyles = {
     textDecoration: 'none',
@@ -52,6 +53,7 @@ class Header extends React.Component{
                     {sideNav}
                 </div>
                 {backdrop}
+                
             </div>
         );
     }

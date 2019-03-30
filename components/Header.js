@@ -5,12 +5,12 @@ import { Link } from "gatsby"
 import Menu from './Menu'
 import SideNav from './SideNav'
 import BackDrop from './BackDrop.js'
-import Video from './Video'
+
 
 const linkStyles = {
     textDecoration: 'none',
-    color: '#000000',
-    padding: '10px 20px',
+    color: '#FF0000',
+    padding: '20px 40px',
     alignItems: 'center'
 }
 class Header extends React.Component{

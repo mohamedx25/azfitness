@@ -9,6 +9,22 @@
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    top: 0;
+   
+}
+.pt-about{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    /* display: inline-block; */
+    margin: 0 auto;
+    float: left;
+}
+.pt-info{
     float: left;
     height: 100%;
     padding-left: 25px;

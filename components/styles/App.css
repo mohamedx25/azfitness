@@ -40,7 +40,22 @@
     text-align: center;
     margin: 0 auto;
     padding-right: 100px;
-    padding-top: 25px;
+    padding-top: 15px;
     word-spacing: normal;
     font-size: 1.5rem;
+}
+.pt-button{
+    padding-top: 40px;
+    align-items: center;
+    padding-right: 150px;
+}
+.pt-btn{
+    padding: 12px 60px;
+    font-size: 13px;
+    text-align: center;
+    color: '#fff';
+    background-color: red;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    outline: none;
 }

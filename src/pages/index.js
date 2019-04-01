@@ -11,7 +11,7 @@ class App extends React.Component{
             <div>
                 <Header />
                 <Video />
-                
+                 {/*personal training section*/}
                 <div className='container'>
                     <div className='pt-training'>
                         <div className='pt-about'>
@@ -23,10 +23,16 @@ class App extends React.Component{
                                 I guarantee you will love the way you look and enjoy your fitness journey
                                 training how you want and enjoying all the food you like.
                                 </p>
-                                <button className=''>Learn More</button>
+                                <div className='pt-button'>
+                                    <button className='pt-btn'>Learn More</button>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                {/*Sports training section*/}
+                <div className='skills-training'>
+                    <h1>Skills Training section</h1>
                 </div>
             </div>
         );

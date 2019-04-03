@@ -5,7 +5,7 @@ import Header from '../../components/Header'
 import '../../components/styles/App.css'
 
 class App extends React.Component{
-
+    let sliderImages;
     render(){
         return( 
             <div>
@@ -32,11 +32,48 @@ class App extends React.Component{
                 </div>
                 {/*Sports training section*/}
                 <div className='skills-training'>
-                    <h1>Skills Training section</h1>
+                    <div className='arrow-left arrow'></div>
+                    <div className='slider'>
+                        <div className='slide slide1'>
+                            <div className='slide-content'>
+                                <h1>Skills Training section</h1>
+                                <p>My sports skills training is elite. I guarantee that you will consistently
+                                see continued growth and development.  My program will make you become the strongest
+                                and fastest you have ever been.  As well as keep you in the best shape</p>
+                                <div className='skills-button'>
+                                    <button className='skills-btn'>Join Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='slide slide2'>
+                            <div className='slide-content'>
+                                <h1>Skills Training section</h1>
+                                <p>My sports skills training is elite. I guarantee that you will consistently
+                                see continued growth and development.  My program will make you become the strongest
+                                and fastest you have ever been.  As well as keep you in the best shape</p>
+                                <div className='skills-button'>
+                                    <button className='skills-btn'>Join Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='slide slide3'>
+                            <div className='slide-content'>
+                                <h1>Skills Training section</h1>
+                                <p>My sports skills training is elite. I guarantee that you will consistently
+                                see continued growth and development.  My program will make you become the strongest
+                                and fastest you have ever been.  As well as keep you in the best shape</p>
+                                <div className='skills-button'>
+                                    <button className='skills-btn'>Join Now</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='arrow-right arrow'></div>
+                    </div>
                 </div>
             </div>
         );
     }
 }
 
+                  
 export default App;

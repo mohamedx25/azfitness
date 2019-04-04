@@ -1,11 +1,31 @@
 import React from "react"
-// import Layout from '../../components/Layout'
 import Video from '../../components/Video'
 import Header from '../../components/Header'
 import '../../components/styles/App.css'
 
 class App extends React.Component{
-    let sliderImages;
+    constructor(props){
+        super(props);
+        this.myRef = React.createRef();
+        this.state = 0;
+    }
+    // will reset the images for the sports container
+    reset = () =>{
+        
+    }
+    // will start the slideshow
+    startSlide = () =>{
+
+    }
+    // function to slide left
+    leftarrowClickHandler = () =>{
+
+    }
+    // function to slide right
+    rightarrowClickHandler = () =>{
+
+    }
+    
     render(){
         return( 
             <div>
@@ -32,7 +52,7 @@ class App extends React.Component{
                 </div>
                 {/*Sports training section*/}
                 <div className='skills-training'>
-                    <div className='arrow-left arrow'></div>
+                    <div className='arrow-left arrow' ></div>
                     <div className='slider'>
                         <div className='slide slide1'>
                             <div className='slide-content'>

@@ -1,32 +1,16 @@
 import React from "react"
 import Video from '../../components/Video'
 import Header from '../../components/Header'
+// import SlideShow from '../../components/SlideShow'
 import '../../components/styles/App.css'
+import group from '../../components/images/promo.mp4'
+
+
 
 class App extends React.Component{
-    constructor(props){
-        super(props);
-        this.myRef = React.createRef();
-        this.state = 0;
-    }
-    // will reset the images for the sports container
-    reset = () =>{
-        
-    }
-    // will start the slideshow
-    startSlide = () =>{
 
-    }
-    // function to slide left
-    leftarrowClickHandler = () =>{
-
-    }
-    // function to slide right
-    rightarrowClickHandler = () =>{
-
-    }
-    
     render(){
+        // let image = images[0];
         return( 
             <div>
                 <Header />
@@ -50,44 +34,34 @@ class App extends React.Component{
                         </div>
                     </div>
                 </div>
+
+                {/*I will import my slideshow component after the personal training section*/}
+                {/* <SlideShow /> */}
+
+
                 {/*Sports training section*/}
                 <div className='skills-training'>
-                    <div className='arrow-left arrow' ></div>
-                    <div className='slider'>
+                    <div className='skills'>
                         <div className='slide slide1'>
-                            <div className='slide-content'>
+                            <div className='skills-content'>
                                 <h1>Skills Training section</h1>
                                 <p>My sports skills training is elite. I guarantee that you will consistently
                                 see continued growth and development.  My program will make you become the strongest
                                 and fastest you have ever been.  As well as keep you in the best shape</p>
                                 <div className='skills-button'>
+                                    {/* create a hover action on button */}
                                     <button className='skills-btn'>Join Now</button>
                                 </div>
                             </div>
                         </div>
-                        <div className='slide slide2'>
-                            <div className='slide-content'>
-                                <h1>Skills Training section</h1>
-                                <p>My sports skills training is elite. I guarantee that you will consistently
-                                see continued growth and development.  My program will make you become the strongest
-                                and fastest you have ever been.  As well as keep you in the best shape</p>
-                                <div className='skills-button'>
-                                    <button className='skills-btn'>Join Now</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='slide slide3'>
-                            <div className='slide-content'>
-                                <h1>Skills Training section</h1>
-                                <p>My sports skills training is elite. I guarantee that you will consistently
-                                see continued growth and development.  My program will make you become the strongest
-                                and fastest you have ever been.  As well as keep you in the best shape</p>
-                                <div className='skills-button'>
-                                    <button className='skills-btn'>Join Now</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='arrow-right arrow'></div>
+                    </div>
+                </div>
+
+                {/* Group fitness section */}
+                <div className='group-training'>
+                    <h1>Group fitness training</h1>
+                    <div className='group-video'>
+                        <video src={group} type='video/mp4' />
                     </div>
                 </div>
             </div>

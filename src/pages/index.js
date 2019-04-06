@@ -1,6 +1,7 @@
 import React from "react"
 import Video from '../../components/Video'
 import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 // import SlideShow from '../../components/SlideShow'
 import '../../components/styles/App.css'
 import group from '../../components/images/promo.mp4'
@@ -35,8 +36,7 @@ class App extends React.Component{
                     </div>
                 </div>
 
-                {/*I will import my slideshow component after the personal training section*/}
-                {/* <SlideShow /> */}
+               
 
 
                 {/*Sports training section*/}
@@ -56,14 +56,32 @@ class App extends React.Component{
                         </div>
                     </div>
                 </div>
+                {/* fitness quote */}
+                <div className='fitness-quote'>
+                    <h3>
+                    "Discipline is choosing between what you want now and what you want most"
+                    </h3>
+                </div>
+
+                {/*I will import my slideshow component after the personal training section*/}
+                {/* <SlideShow /> */}
 
                 {/* Group fitness section */}
                 <div className='group-training'>
-                    <h1>Group fitness training</h1>
+                    <div className='group-info'>
+                        <h1>Group fitness training</h1>
+                        <p>I also lead Group fitness classes at Signature Fitness, Belleville NJ and 
+                        Retro Fitness at wallington nj.  My group training is for any level.  My classes 
+                        are HIIT classes and whip you right into shape.  Come join my class and get to work!
+                        </p>
+                        <button className='group-btn'>Learn More</button>
+                    </div>
                     <div className='group-video'>
-                        <video src={group} type='video/mp4' />
+                        <video src={group} type='video/mp4' controls='controls' width='750' height='500'/>
                     </div>
                 </div>
+
+                <Footer />
             </div>
         );
     }

@@ -33,20 +33,24 @@ class SlideShow extends React.Component{
     }
     // function to slide left
     leftarrowClickHandler = () =>{
-
+        console.log(images[0]);
+        
     }
     // function to slide right
     rightarrowClickHandler = () =>{
-
+        console.log('click right');
     }
     
     render(){
         return(
             <div className='skills-training'>
-                    <div className='arrow-left arrow' ></div>
+                    <div 
+                        className='arrow-left arrow'
+                        onClick={this.leftarrowClickHandler}>
+                    </div> 
+                    
                     <div className='slider'>
                         <div className='slide slide1'>
-                            
                             <div className='slide-content'>
                                 <h1>Skills Training section</h1>
                                 <p>My sports skills training is elite. I guarantee that you will consistently
@@ -57,7 +61,7 @@ class SlideShow extends React.Component{
                                 </div>
                             </div>
                         </div>
-                        <div className='slide slide2'>
+                        {/* <div className='slide slide2'>
                             <div className='slide-content'>
                                 <h1>Skills Training section</h1>
                                 <p>My sports skills training is elite. I guarantee that you will consistently
@@ -67,9 +71,9 @@ class SlideShow extends React.Component{
                                     <button className='skills-btn'>Join Now</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         
-                        <div className='slide slide3'>
+                        {/* <div className='slide slide3'>
                             <div className='slide-content'>
                                 <h1>Skills Training section</h1>
                                 <p>My sports skills training is elite. I guarantee that you will consistently
@@ -79,8 +83,12 @@ class SlideShow extends React.Component{
                                     <button className='skills-btn'>Join Now</button>
                                 </div>
                             </div>
-                        </div>
-                        <div className='arrow-right arrow'></div>
+                        </div> */}
+                        
+                    </div>
+                    <div 
+                        className='arrow-right arrow'
+                        onClick={this.rightarrowClickHandler}>
                     </div>
                 </div>
         )

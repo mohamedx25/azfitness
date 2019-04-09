@@ -36,9 +36,6 @@ class App extends React.Component{
                     </div>
                 </div>
 
-               
-
-
                 {/*Sports training section*/}
                 <div className='skills-training'>
                     <div className='skills'>
@@ -58,9 +55,13 @@ class App extends React.Component{
                 </div>
                 {/* fitness quote */}
                 <div className='fitness-quote'>
-                    <h3>
-                    "Discipline is choosing between what you want now and what you want most"
-                    </h3>
+                    <div className='left-side'></div>
+                    <div className='middle'>
+                        <h3>
+                        "Discipline is choosing between what you want now and what you want most"
+                        </h3>
+                    </div>
+                    <div className='right-side'></div>
                 </div>
 
                 {/*I will import my slideshow component after the personal training section*/}
@@ -79,8 +80,7 @@ class App extends React.Component{
                     <div className='group-video'>
                         <video src={group} type='video/mp4' controls='controls' width='750' height='500'/>
                     </div>
-                </div>
-
+                </div> 
                 <Footer />
             </div>
         );

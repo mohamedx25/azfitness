@@ -126,6 +126,8 @@ body{
     /* margin: 0 auto; */
     /* padding: 50px 400px 50px 400px; */
     display: flex;
+    color: red;
+    background-image: url('../images/Royal.png');
 }
 .fitness-quote h3{
     text-transform: uppercase;

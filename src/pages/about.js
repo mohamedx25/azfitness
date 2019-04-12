@@ -79,8 +79,10 @@ class About extends React.Component{
                 </div>
 
                 <div className='about-join'>
-                    <h3>Contact me for a  one on one consultation</h3>
-                    <button style={buttonStyles}>Contact Me</button> 
+                    <div className='join'>
+                        <h3>Contact me for a  one on one consultation</h3>
+                        <button style={buttonStyles} className='join-btn'>Contact Me</button> 
+                    </div>
                 </div>
                 <div className='about-footer'>
                     <Footer />

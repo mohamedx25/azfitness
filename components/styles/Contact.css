@@ -1,0 +1,16 @@
+.contact{
+    background-image: url('../images/boxing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    align-items: center;
+}
+.contact h1{
+    margin: 0 auto;
+    padding-top: 300px;
+}

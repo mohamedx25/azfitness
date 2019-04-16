@@ -20,7 +20,7 @@ const buttonStyles = {
     outline: "none",
     padding: "12px 60px",
     boxShadow: "2px 5px 10px rgba(0,0,0,.1)",
-    backgroundColor: "#DB5461",
+    backgroundColor: "#5ff442",
     borderRadius: "6px",
     letterSpacing: "1.5px",
 }
@@ -36,24 +36,41 @@ const Contact = (props) =>(
                 <div className='contact-form'>
                     <form method='post' action=''>
                         <div>
-                            <label>First Name</label>
-                            <input type="text" name="name" id="f_name" />
+                            <label>First Name
+                            <input 
+                                type="text" name="Fname" id="f_name" />
+                            </label>
                         </div>
                         <div>
-                            <label>Last Name</label>
-                            <input type="text" name="name" id="l_name" />
+                            <label>Last Name
+                            <input 
+                                type="text" name="Lname" id="l_name" />
+                            </label>
                         </div>
                         <div>
-                            <label>Cell Phone</label>
-                            <input type="text" name="phone" id="cell" />
+                            <label>Cell Phone
+                            <input 
+                                type="number" 
+                                name="phone" 
+                                placeholder='212-333-4532' />
+                            </label>
                         </div>
                         <div>
-                            <label>E-mail</label>
-                            <input type="text" name="email" id="email" />
+                            <label>E-mail
+                            <input 
+                                type="text" 
+                                name="email" 
+                                placeholder='email@gmail.com' />
+                            </label>
                         </div>
                         <div>
-                            <label>Message</label>
-                            <textarea name="message" id="message" rows="6"></textarea>
+                            <label>Message
+                            <textarea 
+                                name="message" 
+                                placeholder='Please write in detail here your questions or comments'
+                                id="message" 
+                                rows="6"></textarea>
+                            </label>
                         </div>
                         <div>
                             <input type="submit" value="Submit" style={buttonStyles}/>
@@ -79,7 +96,6 @@ const Contact = (props) =>(
                         Kearny, NJ 00000<br />
                         United States of America</span>
                 </div>
-                
             </section>
         </div>
         <Footer />

@@ -40,6 +40,7 @@ form{
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
+    background-color: #BFD7EA;
 }
 .email-info{
     height: 33%;
@@ -62,14 +63,26 @@ form{
     height: 33%;
     width: 100%;
     border-bottom: 1px solid rgb(10, 177, 10);
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 50px;
 }
 .phone-icon{
     color: green;
+    margin-bottom: 10px;
 }
+
 .address-info{
     height: 34%;
     width: 100%;
     border-bottom: 1px solid purple;
+    margin: 0 auto;
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 50px;
 }
 .home-icon{
     color: orange;

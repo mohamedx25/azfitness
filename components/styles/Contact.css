@@ -19,10 +19,11 @@
     width: 100vw;
     display: flex;
     flex-direction: row;
+    background-color: #CDCDCD;
 }
 .form-section{
     width: 70%;
-    background-color: #BFD7EA;
+   
 }
 
 .contact-form{
@@ -40,7 +41,7 @@ form{
     display: flex;
     flex-direction: column;
     text-transform: uppercase;
-    background-color: #BFD7EA;
+    background-color: #CDCDCD;
 }
 .email-info{
     height: 33%;
@@ -86,4 +87,5 @@ form{
 }
 .home-icon{
     color: orange;
+    margin-bottom: 10px;
 }

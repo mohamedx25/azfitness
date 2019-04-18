@@ -42,11 +42,11 @@ class Header extends React.Component{
                 </div>
                 <div className='header-nav'> 
                     <ul>
-                        <li><Link to='' style={linkStyles}>Home</Link></li>
-                        <li><Link to='../../src/pages/about' style={linkStyles}>About</Link></li>
+                        <li><Link to='/index' style={linkStyles}>Home</Link></li>
+                        <li><Link to='/about/' style={linkStyles}>About</Link></li>
                         {/* <li><Link to='/' style={linkStyles}>Nutrition</Link></li> */}
                         {/* <li><Link to='/' style={linkStyles}>Store</Link></li> */}
-                        <li><Link to='/' style={linkStyles}>Contact</Link></li>
+                        <li><Link to='/contact/' style={linkStyles}>Contact</Link></li>
                    </ul>
                 </div>
                 <div className='menu'>

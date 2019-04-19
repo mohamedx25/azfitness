@@ -1,7 +1,5 @@
 import React from 'react'
 import './Footer.css'
-
-import './images/insta.svg'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

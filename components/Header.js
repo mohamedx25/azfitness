@@ -42,7 +42,7 @@ class Header extends React.Component{
                 </div>
                 <div className='header-nav'> 
                     <ul>
-                        <li><Link to='/index' style={linkStyles}>Home</Link></li>
+                        <li><Link to='/' style={linkStyles}>Home</Link></li>
                         <li><Link to='/about/' style={linkStyles}>About</Link></li>
                         {/* <li><Link to='/' style={linkStyles}>Nutrition</Link></li> */}
                         {/* <li><Link to='/' style={linkStyles}>Store</Link></li> */}

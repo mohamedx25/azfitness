@@ -76,52 +76,6 @@ const Contact = (props) =>(
                             Submit
                         </Button>
                     </Form>
-                    {/* <form method='post' action=''>
-                        <div>
-                            <label>First Name
-                            <input 
-                                type="text" 
-                                name="Fname" 
-                                id="f_name" />
-                            </label>
-                        </div>
-                        <div>
-                            <label>Last Name
-                            <input 
-                                type="text" 
-                                name="Lname" 
-                                id="l_name" />
-                            </label>
-                        </div>
-                        <div>
-                            <label>Cell Phone
-                            <input 
-                                type="number" 
-                                name="phone" 
-                                placeholder='212-333-4532' />
-                            </label>
-                        </div>
-                        <div>
-                            <label>E-mail
-                            <input 
-                                type="text" 
-                                name="email" 
-                                placeholder='email@gmail.com' />
-                            </label>
-                        </div>
-                        <div>
-                            <label>Message
-                            <textarea 
-                                name="message" 
-                                placeholder='Please write in detail here your questions or comments'
-                                id="message" 
-                                rows="6"></textarea>
-                            </label>
-                        </div>
-                        <div>
-                            <input type="submit" value="Submit" style={buttonStyles}/>
-                        </div> 
-                    </form>*/} 
                 </div>
             </section>
             <section className='info-section'>

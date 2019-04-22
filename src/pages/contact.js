@@ -36,35 +36,43 @@ const Contact = (props) =>(
         <div className='info-container'>
             <section className='form-section'>
                 <div className='contact-form'>
-                    <Form>
+                    <Form name='contact' 
+                        method='POST' 
+                        data-netlify='true'
+                        data-netlify-honeypot='bot-field'>
                         <Form.Group controlId='formBasicName'>
                             <Form.Label>First Name</Form.Label>
                             <Form.Control 
                                 type='text' 
+                                name='f_name'
                                 placeholder='Enter First Name'/>
                         </Form.Group>
                         <Form.Group controlId='formBasicName'>
                             <Form.Label>Last Name</Form.Label>
                             <Form.Control 
                                 type='text' 
+                                name='l_name'
                                 placeholder='Enter Last Name'/>
                         </Form.Group>
                         <Form.Group controlId='formGroupEmail'>
                             <Form.Label>Email Address</Form.Label>
                             <Form.Control 
                                 type='text' 
+                                name='email'
                                 placeholder='Enter Email'/>
                         </Form.Group>
                         <Form.Group controlId='formGroupNumber'>
                             <Form.Label>Phone Number</Form.Label>
                             <Form.Control 
                                 type='number' 
+                                name='number'
                                 placeholder='Enter Phone number'/>
                         </Form.Group>
                         <Form.Group controlId="exampleForm.ControlTextarea1">
                             <Form.Label>Message</Form.Label>
                             <Form.Control 
-                                as="textarea" 
+                                as="textarea"
+                                name='message' 
                                 rows="6" 
                                 placeholder='Send me any questions or comments'
                             />

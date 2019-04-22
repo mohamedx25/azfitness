@@ -80,6 +80,7 @@ const Contact = (props) =>(
                         <Button variant='success' 
                                 size='lg' 
                                 active
+                                type='submit'
                                 >
                             Submit
                         </Button>
@@ -92,7 +93,7 @@ const Contact = (props) =>(
                         Full Name <input type='text'
                             name='name'
                             placeholder='your name'/>
-                        <button>Submit</button>
+                        <button type='submit'>Submit</button>
                     </form>
                 </div>
             </section>

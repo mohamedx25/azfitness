@@ -9,7 +9,7 @@ body{
 .pt-training{
     width: 100vw;
     height: 100vh;
-    background-image: url('/static/Amine.jpg');
+    background-image: url('../images/Amine.jpg');
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;

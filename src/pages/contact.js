@@ -36,7 +36,7 @@ const Contact = (props) =>(
         <div className='info-container'>
             <section className='form-section'>
                 <div className='contact-form'>
-                    {/* <Form name='contact' 
+                    <Form name='contact' 
                         action='/success/'
                         method='POST' 
                         data-netlify='true'
@@ -85,8 +85,8 @@ const Contact = (props) =>(
                                 >
                             Submit
                         </Button>
-                    </Form> */}
-                    <form 
+                    </Form>
+                    {/* <form 
                         method='POST'
                         name='contact'
                         action='/success/'
@@ -96,7 +96,7 @@ const Contact = (props) =>(
                             name='name'
                             placeholder='your name'/>
                         <button type='submit'>Submit</button>
-                    </form>
+                    </form> */}
                 </div>
             </section>
             <section className='info-section'>

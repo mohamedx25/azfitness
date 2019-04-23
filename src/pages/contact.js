@@ -37,6 +37,7 @@ const Contact = (props) =>(
             <section className='form-section'>
                 <div className='contact-form'>
                     <Form name='contact' 
+                        action='/success'
                         method='POST' 
                         data-netlify='true'
                         data-netlify-honeypot='bot-field'>

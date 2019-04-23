@@ -1,8 +1,8 @@
 import React  from 'react';
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-// import { Form } from 'react-bootstrap'
-// import { Button } from 'react-bootstrap'
+import { Form } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 import '../../components/Header.css'
 import '../../components/Footer.css'
 import '../../components/styles/Contact.css'

@@ -24,11 +24,12 @@ class About extends React.Component{
     render(){
         return(
             <div>
-                <div className='about-header'>    
+                {/* <div className='about-header'>    
                     <Header/>
-                </div>
+                </div> */}
+                <Header/>
                 <div className='bio'>
-                    <div>
+                    <div className='bio-info'>
                         <h2>Amine Zaouia</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras non iaculis tortor. 
                         Sed ut urna pharetra, ultrices elit at, dapibus nulla.

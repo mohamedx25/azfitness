@@ -87,18 +87,7 @@ const Contact = (props) =>(
                             Submit
                         </Button>
                     </Form>
-                    {/* <form 
-                        method='POST'
-                        name='contact'
-                        action='/success/'
-                        data-netlify='true'
-                        data-netlify-honeypot='bot-field'>
-                        <input type='hidden' name='bot-field' />
-                        Full Name <input type='text'
-                            name='name'
-                            placeholder='your name'/>
-                        <button type='submit'>Submit</button>
-                    </form> */}
+                    
                 </div>
             </section>
             <section className='info-section'>

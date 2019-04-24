@@ -5,8 +5,7 @@ import Footer from '../../components/Footer'
 // import SlideShow from '../../components/SlideShow'
 import '../../components/styles/App.css'
 import group from '../../components/images/promo.mp4'
-import { Form } from 'react-bootstrap'
-import { Button } from 'react-bootstrap'
+
 
 
 class App extends React.Component{
@@ -80,56 +79,7 @@ class App extends React.Component{
                     <div className='group-video'>
                         <video src={group} type='video/mp4' controls='controls' width='750' height='500'/>
                     </div>
-                    <Form name='contact' 
-                        action='/success'
-                        method='POST' 
-                        data-netlify='true'
-                        data-netlify-honeypot='bot-field'>
-                        <Form.Group controlId='formBasicName'>
-                            <Form.Label>First Name</Form.Label>
-                            <Form.Control 
-                                type='text' 
-                                name='f_name'
-                                placeholder='Enter First Name'/>
-                        </Form.Group>
-                        <Form.Group controlId='formBasicName'>
-                            <Form.Label>Last Name</Form.Label>
-                            <Form.Control 
-                                type='text' 
-                                name='l_name'
-                                placeholder='Enter Last Name'/>
-                        </Form.Group>
-                        <Form.Group controlId='formGroupEmail'>
-                            <Form.Label>Email Address</Form.Label>
-                            <Form.Control 
-                                type='text' 
-                                name='email'
-                                placeholder='Enter Email'/>
-                        </Form.Group>
-                        <Form.Group controlId='formGroupNumber'>
-                            <Form.Label>Phone Number</Form.Label>
-                            <Form.Control 
-                                type='number' 
-                                name='number'
-                                placeholder='Enter Phone number'/>
-                        </Form.Group>
-                        <Form.Group controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>Message</Form.Label>
-                            <Form.Control 
-                                as="textarea"
-                                name='message' 
-                                rows="6" 
-                                placeholder='Send me any questions or comments'
-                            />
-                        </Form.Group>
-                        <Button variant='success' 
-                                size='lg' 
-                                active
-                                type='submit'
-                                >
-                            Submit
-                        </Button>
-                    </Form>
+                   
                 </div> 
                 <Footer />
             </div>

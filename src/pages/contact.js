@@ -1,8 +1,8 @@
 import React  from 'react';
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-import { Form } from 'react-bootstrap'
-import { Button } from 'react-bootstrap'
+// import { Form } from 'react-bootstrap'
+// import { Button } from 'react-bootstrap'
 import '../../components/Header.css'
 import '../../components/Footer.css'
 import '../../components/styles/Contact.css'
@@ -36,7 +36,7 @@ const Contact = (props) =>(
         <div className='info-container'>
             <section className='form-section'>
                 <div className='contact-form'>
-                    <Form name='contact' 
+                    {/* <Form name='contact' 
                         action='/success'
                         method='POST' 
                         data-netlify='true'
@@ -85,18 +85,19 @@ const Contact = (props) =>(
                                 >
                             Submit
                         </Button>
-                    </Form>
-                    {/* <form 
+                    </Form> */}
+                    <form 
                         method='POST'
                         name='contact'
                         action='/success/'
                         data-netlify='true'
                         data-netlify-honeypot='bot-field'>
+                        <input type='hidden' name='bot-field' />
                         Full Name <input type='text'
                             name='name'
                             placeholder='your name'/>
                         <button type='submit'>Submit</button>
-                    </form> */}
+                    </form>
                 </div>
             </section>
             <section className='info-section'>

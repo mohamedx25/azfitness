@@ -24,9 +24,6 @@ class About extends React.Component{
     render(){
         return(
             <div>
-                {/* <div className='about-header'>    
-                    <Header/>
-                </div> */}
                 <Header/>
                 <div className='bio'>
                     <div className='bio-info'>

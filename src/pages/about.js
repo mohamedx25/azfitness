@@ -4,10 +4,11 @@ import Footer from '../../components/Footer'
 import '../../components/Header.css'
 import '../../components/Footer.css'
 import '../../components/styles/About.css'
-import banana from '../../components/images/banana.jpg'
 import beach from '../../components/images/beach.jpg'
 import soccer from '../../components/images/soccer.jpg'
 import group from '../../components/images/group.jpg'
+import hsSoccer from '../../components/images/amine-soccer.jpg'
+import college from '../../components/images/college.jpg'   
 
 const buttonStyles = {
     fontSize: "13px",
@@ -28,33 +29,39 @@ class About extends React.Component{
                 <div className='bio'>
                     <div className='bio-info'>
                         <h2>Amine Zaouia</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras non iaculis tortor. 
-                        Sed ut urna pharetra, ultrices elit at, dapibus nulla.
-                        </p>
+                       
+                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras non iaculis tortor. 
+                            Sed ut urna pharetra, ultrices elit at, dapibus nulla.
+                            </p>
+                            
+                        
                     </div>
                 </div>  
                 <div className='journey'>
-                    <div className='fit-journey'>
-                        <img src={banana} alt='banana'/>
-                    </div>
+                    <div className='fit-journey'></div>
                     <div className='life-story'>
                         <div className='high-school'>
                             <h4>High School</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
                             Cras non iaculis tortor. Sed ut urna pharetra, ultrices elit at, dapibus nulla.
                             </p>
+                            <img src={hsSoccer} alt='soccer' />
                         </div>
                         <div className='college'>
                             <h4>College</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.
                             Cras non iaculis tortor. Sed ut urna pharetra, ultrices elit at, dapibus nulla.
                             </p>
+                            <img src={college} alt='college' />
                         </div>
                     </div>
                 </div>
                 <div className='services'>
+                    <div className='service-info'>
                         <h1>A2Z Fitness Services</h1>
                         <p>You're in good hands if you train with me!</p>
+                    </div>
                     <div className='service-cards'>
                         <div className='pt-card'>
                             <h2>Personal Trainings</h2>

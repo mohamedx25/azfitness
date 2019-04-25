@@ -12,43 +12,97 @@
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: -2.5px;
-
+    display: flex;
 }
 .bio-info{
     justify-content: center;
     text-align: center;
     align-items: center;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+  
+    padding: 500px 300px 400px 300px;
+    float: right;
+    position: absolute;
+    
 }
+.bio-info h2{
+    font-size: 4rem;
+    color: black;
+    text-transform: uppercase;
+}
+.bio-info p{
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
 .journey{
     height: 100vh;
     width: 100vw;
     display: flex;
 }
 .fit-journey{
-   width: 50%;
-   height: 100%;
+    width: 60%;
+    height: 100%;
+    background-image: url('../images/banana.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
 }
-.fit-journey img{
-    height: 100%;   
+.life-story{
+    height: 100%;
+    width: 40%;
 }
 .high-school{
     width: 100%;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.high-school img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
 }
 .college{
     width: 100%;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.college h4, .high-school h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.college img{
+    max-width: 100%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .services{
     height: 100vh;
     width: 100vw; 
     overflow: hidden;
 }
-.services h1{
+.service-info{
+    width: 100%;
+    height: 20%;
+}
+.service-info h1{
     text-transform: uppercase;
     text-align: center;
     padding-top: 15px;
     font-size: 2rem;
 }
-.services p{
+.service-info p{
     text-transform: uppercase;
     text-align: center;
     padding-top: 10px;
@@ -56,7 +110,7 @@
     font-size: 1rem;
 }
 .service-cards{
-    height: 600px;
+    height: 80%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -66,7 +120,7 @@
     position: relative;
 }
 .pt-card{
-    height: 550px;
+    height: 95%;
     width: 32%;
     border: 1px solid red;
 }
@@ -75,7 +129,7 @@
     
 }
 .skills-card{
-    height: 550px;
+    height: 95%;
     width: 32%;
     border: 1px solid blue;
 }
@@ -83,7 +137,7 @@
     width: 90%;
 }
 .gt-card{
-    height: 550px;
+    height: 95%;
     width: 32%;
     border: 1px solid green;
     align-items: center;

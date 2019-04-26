@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
+import Cards from '../../components/Cards'
 import '../../components/Header.css'
 import '../../components/Footer.css'
 import '../../components/styles/About.css'
-import beach from '../../components/images/beach.jpg'
-import soccer from '../../components/images/soccer.jpg'
-import group from '../../components/images/group.jpg'
+// import beach from '../../components/images/beach.jpg'
+// import soccer from '../../components/images/soccer.jpg'
+// import group from '../../components/images/group.jpg'
 import hsSoccer from '../../components/images/amine-soccer.jpg'
 import college from '../../components/images/college.jpg'   
 
@@ -29,13 +30,9 @@ class About extends React.Component{
                 <div className='bio'>
                     <div className='bio-info'>
                         <h2>Amine Zaouia</h2>
-                       
-                            
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras non iaculis tortor. 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras non iaculis tortor. 
                             Sed ut urna pharetra, ultrices elit at, dapibus nulla.
-                            </p>
-                            
-                        
+                        </p>
                     </div>
                 </div>  
                 <div className='journey'>
@@ -43,21 +40,20 @@ class About extends React.Component{
                     <div className='life-story'>
                         <div className='high-school'>
                             <h4>High School</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-                            Cras non iaculis tortor. Sed ut urna pharetra, ultrices elit at, dapibus nulla.
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem 
                             </p>
                             <img src={hsSoccer} alt='soccer' />
                         </div>
                         <div className='college'>
                             <h4>College</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                            Cras non iaculis tortor. Sed ut urna pharetra, ultrices elit at, dapibus nulla.
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem 
+                            
                             </p>
                             <img src={college} alt='college' />
                         </div>
                     </div>
                 </div>
-                <div className='services'>
+                {/* <div className='services'>
                     <div className='service-info'>
                         <h1>A2Z Fitness Services</h1>
                         <p>You're in good hands if you train with me!</p>
@@ -81,8 +77,8 @@ class About extends React.Component{
                             <p>My group training classes are sure to get your heart rate going</p>
                         </div>
                     </div>
-                </div>
-
+                </div> */}
+                <Cards />
                 <div className='about-join'>
                     <div className='join'>
                         <h3>Contact me for a  one on one consultation</h3>

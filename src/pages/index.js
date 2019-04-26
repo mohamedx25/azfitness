@@ -5,6 +5,7 @@ import Footer from '../../components/Footer'
 // import SlideShow from '../../components/SlideShow'
 import '../../components/styles/App.css'
 import group from '../../components/images/promo.mp4'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css' 
 
 
 

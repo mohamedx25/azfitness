@@ -42,6 +42,9 @@ class About extends React.Component{
                             <h4>High School</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem 
                             </p>
+
+
+                            
                             <img src={hsSoccer} alt='soccer' />
                         </div>
                         <div className='college'>

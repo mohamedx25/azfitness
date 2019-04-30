@@ -41,7 +41,7 @@ const Contact = (props) =>(
                         method='POST' 
                         data-netlify='true'
                         data-netlify-honeypot='bot-field'>
-                        <Form.Control type='hidden' name='bot-field' />
+                        <Form.Control type='hidden' name='bot-field' value='contact'/>
                         <Form.Group controlId='formBasicName'>
                             <Form.Label>First Name</Form.Label>
                             <Form.Control 

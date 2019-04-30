@@ -22,8 +22,8 @@ const Success = props => (
           <p>Thank you for contacting us!</p>
         </div>
       </section>
+      </div>
     </div>
-</div>
 
 )
 

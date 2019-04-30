@@ -12,26 +12,26 @@ class Footer extends React.Component{
     render(){
         return(
             <div className='footer'>
-                <div className='social'>
-                    <ul>
+                <div className='social'> 
+                     <ul>
                         <li><a href='/'>
                             <FontAwesomeIcon className='insta' icon={['fab', 'instagram']} size='2x'
                                 style={{
-                                    color: '#fff'
+                                    color: '#517FA4'
                                 }}
                             />
                         </a></li>
                         <li><a href='/'>
                             <FontAwesomeIcon className='twitter' icon={['fab', 'twitter']} size='2x'
                                 style={{
-                                    color: '#fff'
+                                    color: '#00ACED'
                                 }}
                             />
                         </a></li>
                         <li><a href='/'>
                             <FontAwesomeIcon className='youtube' icon={['fab', 'youtube']} size='2x'
                                 style={{
-                                    color: '#fff'
+                                    color: '#c4302b'
                                 }}
                                 
                             />    
@@ -40,11 +40,12 @@ class Footer extends React.Component{
                             <FontAwesomeIcon className='linkedin' icon={['fab', 'linkedin']} size='2x'
                                 activeClassName='active'
                                 style={{
-                                    color: '#fff'
+                                    color: '#007bb6'
                                 }}
                             />    
                         </a></li>
-                    </ul>
+                    </ul> 
+              
                 </div>
                 <div className='company'>
                     <h5>A2Z Fitness LLC {'\u00A9'}</h5>

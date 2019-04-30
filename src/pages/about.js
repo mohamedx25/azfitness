@@ -8,8 +8,8 @@ import '../../components/styles/About.css'
 // import beach from '../../components/images/beach.jpg'
 // import soccer from '../../components/images/soccer.jpg'
 // import group from '../../components/images/group.jpg'
-import hsSoccer from '../../components/images/amine-soccer.jpg'
-import college from '../../components/images/college.jpg'   
+// import hsSoccer from '../../components/images/amine-soccer.jpg'
+// import college from '../../components/images/college.jpg'   
 
 const buttonStyles = {
     fontSize: "13px",
@@ -30,8 +30,9 @@ class About extends React.Component{
                 <div className='bio'>
                     <div className='bio-info'>
                         <h2>Amine Zaouia</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem luctus, maximus eros nec, cursus nibh. Aenean fringilla erat tortor, consequat posuere nulla suscipit vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras non iaculis tortor. 
-                            Sed ut urna pharetra, ultrices elit at, dapibus nulla.
+                        <p>
+                            Here you would put your mission statement for your business.<br /> 
+                            What you are about and goal of business. 
                         </p>
                     </div>
                 </div>  
@@ -40,19 +41,16 @@ class About extends React.Component{
                     <div className='life-story'>
                         <div className='high-school'>
                             <h4>High School</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem 
+                            <p>This section I believe I wanted to use to describe your high school experience.
                             </p>
-
-
-                            
-                            <img src={hsSoccer} alt='soccer' />
+                            {/* <img src={hsSoccer} alt='soccer' /> */}
                         </div>
                         <div className='college'>
                             <h4>College</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis neque eget libero placerat mollis. Ut posuere arcu in posuere mollis. Curabitur id tincidunt nulla. Donec id lorem 
-                            
+                            <p> 
+                                This section I felt like would be used to briefly describe your college experience.
                             </p>
-                            <img src={college} alt='college' />
+                            {/* <img src={college} alt='college' /> */}
                         </div>
                     </div>
                 </div>

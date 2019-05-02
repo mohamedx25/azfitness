@@ -2,7 +2,7 @@ import React from "react"
 import Video from '../../components/Video'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-// import SlideShow from '../../components/SlideShow'
+import SlideShow from '../../components/SlideShow'
 import '../../components/styles/App.css'
 import group from '../../components/images/promo.mp4'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css' 
@@ -65,7 +65,7 @@ class App extends React.Component{
                 </div>
 
                 {/*I will import my slideshow component after the personal training section*/}
-                {/* <SlideShow /> */}
+                <SlideShow />
 
                 {/* Group fitness section */}
                 <div className='group-training'>

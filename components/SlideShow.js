@@ -21,19 +21,22 @@ const images = [
 ]
 /*Component for my slideshow for the skills training section */
 class SlideShow extends React.Component{
-    // let counter;
-    
+    //variable 
+    let count;
+    let show = images; //variable that holds all of the images
     // will reset the images for the sports container
     reset = () =>{
-        
+        for(let i = i < show.length; i++){
+            show[i].style.display = none;
+        }
     }
     // will start the slideshow
     startSlide = () =>{
-
+       
     }
     // function to slide left
     leftarrowClickHandler = () =>{
-        console.log(images[0]);
+        console.log('click left');
         
     }
     // function to slide right
@@ -61,7 +64,7 @@ class SlideShow extends React.Component{
                                 </div>
                             </div>
                         </div>
-                        {/* <div className='slide slide2'>
+                        <div className='slide slide2'>
                             <div className='slide-content'>
                                 <h1>Skills Training section</h1>
                                 <p>My sports skills training is elite. I guarantee that you will consistently
@@ -71,9 +74,9 @@ class SlideShow extends React.Component{
                                     <button className='skills-btn'>Join Now</button>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                         
-                        {/* <div className='slide slide3'>
+                        <div className='slide slide3'>
                             <div className='slide-content'>
                                 <h1>Skills Training section</h1>
                                 <p>My sports skills training is elite. I guarantee that you will consistently
@@ -83,7 +86,7 @@ class SlideShow extends React.Component{
                                     <button className='skills-btn'>Join Now</button>
                                 </div>
                             </div>
-                        </div> */}
+                        </div> 
                         
                     </div>
                     <div 

@@ -87,7 +87,6 @@ const Contact = (props) =>(
                             Submit
                         </Button>
                     </Form>
-                    
                 </div>
             </section>
             <section className='info-section'>

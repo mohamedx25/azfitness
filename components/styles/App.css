@@ -81,6 +81,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-image: url('../images/boxing.jpg'); 
 }
 .slide1{
     background-image: url('../images/boxing.jpg'); 

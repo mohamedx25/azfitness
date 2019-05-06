@@ -1,7 +1,4 @@
 import React from 'react'
-// import beach from '../images/beach.jpg'
-// import soccer from '../images/soccer.jpg'
-// import group from './images/group.jpg'
 import './cards-style.css'
 
 const CardUI = (props) =>(

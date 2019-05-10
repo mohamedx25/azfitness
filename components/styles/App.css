@@ -6,29 +6,30 @@ body{
     width: 100%;
 }
 /* Personal training section*/
-.pt-training{
+/* .pt-training{
     width: 100vw;
     height: 100vh;
     background-image: url('/Amine.jpg');
     position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     background-position-y: center;
     display: flex;
     text-align: center;
     align-items: center;
     top: 0;
+    -webkit-filter: brightness(1.);
 }
 .pt-about{
     height: 400px;
     width: 100%;
     text-align: center;
-    /* display: inline-block; */
+    display: inline-block;
     margin: 0 auto;
-    float: right;
+    
 }
 .pt-info{
-    float: right;
+    float: left;
     height: 100%;
     padding-left: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -36,21 +37,24 @@ body{
     color: red;
 }
 .pt-info h1{
-    font-size: 3.5rem;
+    font-size: 3.5vw;
     padding-right: 150px;
+    float: left;
 }
 .pt-info p{
     text-align: center;
     margin: 0 auto;
-    padding-right: 100px;
+    padding-right: 450px;
     padding-top: 15px;
     word-spacing: normal;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
+    float: left;
 }
 .pt-button{
     padding-top: 40px;
     align-items: center;
     padding-right: 150px;
+    float: left;
 }
 .pt-btn{
     padding: 12px 60px;
@@ -61,7 +65,7 @@ body{
     border-radius: 5px;
     letter-spacing: 1.5px;
     outline: none;
-}
+} */
 /*skills Training section*/
 .skills, .skills-training, .skills-content{
     margin: 0;
@@ -79,13 +83,13 @@ body{
 }
 .slide{
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
-    background-image: url('../images/boxing.jpg'); 
+    
 }
-.slide1{
+/* .slide1{
     background-image: url('../images/boxing.jpg'); 
-}
+} */
 .skills-content{
     display: flex;
     flex-direction: column;
@@ -128,7 +132,7 @@ body{
     /* padding: 50px 400px 50px 400px; */
     display: flex;
     color: red;
-    background-image: url('../images/Royal.png');
+    /* background-image: url('../images/Royal.png'); */
 }
 .fitness-quote h3{
     text-transform: uppercase;
@@ -194,4 +198,33 @@ body{
     height: 100%;
     width: 60%;
     padding: 120px 50px 75px 50px;
+}
+
+.container-fluid{
+    widows: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url('/Amine.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.col-lg{
+    width: 60%;
+}
+.pt-info{
+    padding-top: 300px;
+    padding-right: 150px;
+}
+.pt-info h3{
+    font-size: 3vw;
+}
+.pt-info p{
+    font-size: 1.6vw;
+     
+}
+.sports-training{
+    height: 100%;
 }

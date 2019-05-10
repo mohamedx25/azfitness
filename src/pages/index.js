@@ -92,18 +92,6 @@ class App extends React.Component{
                     <Carousel.Item>
                         <img 
                             className='d-block w-100'
-                            src={boxing}
-                            alt='second slide'
-                            
-                        />
-                        <Carousel.Caption>
-                            <h3>Sports Training</h3>
-                            <p>I offer great sports training</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img 
-                            className='d-block w-100'
                             src={beach}
                             alt='Third slide'
                             

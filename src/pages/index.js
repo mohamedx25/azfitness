@@ -8,7 +8,7 @@ import '../../components/styles/App.css'
 import group from '../../components/images/promo.mp4'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css' 
 import soccer from '../../components/images/soccer.jpg'
-import boxing from '../../components/images/boxing.jpg'
+// import boxing from '../../components/images/boxing.jpg'
 import beach from '../../components/images/beach.jpg'
 
 class App extends React.Component{
@@ -75,7 +75,7 @@ class App extends React.Component{
                         </div>
                     </div>
                 </div> */}
-                <div className='sports-training'>
+                {/* <div className='sports-training'> */}
                 <Carousel>
                     <Carousel.Item>
                         <img 
@@ -86,7 +86,9 @@ class App extends React.Component{
                         />
                         <Carousel.Caption>
                             <h3>Sports Training</h3>
-                            <p>I offer great sports training</p>
+                            <p>My training will help you reach your ultimate goals on and off the 
+                                pitch.
+                            </p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -98,11 +100,11 @@ class App extends React.Component{
                         />
                         <Carousel.Caption>
                             <h3>Sports Training</h3>
-                            <p>I offer great sports training</p>
+                            <p>Sports training will make you feel your best and look your best.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-                </div>
+                {/* </div> */}
 
                 {/*I will import my slideshow component after the personal training section*/}
                 {/* <SlideShow /> */}

@@ -5,6 +5,7 @@ import Cards from '../../components/Cards'
 import '../../components/Header.css'
 import '../../components/Footer.css'
 import '../../components/styles/About.css'
+// import { Wave } from 'react-animated-text'
 // import beach from '../../components/images/beach.jpg'
 // import soccer from '../../components/images/soccer.jpg'
 // import group from '../../components/images/group.jpg'
@@ -29,6 +30,12 @@ class About extends React.Component{
                 <Header/>
                 <div className='bio'>
                     <div className='bio-info'>
+                        {/* <Wave 
+                            text='Amine Zaouia' 
+                            effect='jump'
+                            effectDirection='up'
+                            speed='10'
+                        />  */}
                         <h2>Amine Zaouia</h2>
                         <p>
                             Here you would put your mission statement for your business.<br /> 

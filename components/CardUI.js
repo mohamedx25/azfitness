@@ -11,7 +11,7 @@ const CardUI = (props) =>(
                 <p>
                     {props.about} 
                 </p>
-                <a href='#' className='btn btn-outline-success'>Learn More </a>
+                <a href='#' className='btn btn-outline-success' alt='Learn more'>Learn More </a>
             </div>
         </div>
     

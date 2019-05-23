@@ -5,7 +5,8 @@ import { Link } from "gatsby"
 import Menu from './Menu'
 import SideNav from './SideNav'
 import BackDrop from './BackDrop.js'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 
 const linkStyles = {
     textDecoration: 'none',
@@ -47,6 +48,8 @@ class Header extends React.Component{
                         {/* <li><Link to='/' style={linkStyles}>Nutrition</Link></li> */}
                         <li><Link to='/store/' style={linkStyles}>Store</Link></li>
                         <li><Link to='/contact/' style={linkStyles}>Contact</Link></li>
+                        <Link to='/cart/' style={linkStyles}><FontAwesomeIcon icon={faCartPlus} size='1x' className='pull-right'/>My Cart</Link>
+
                    </ul>
                 </div>
                 <div className='menu'>

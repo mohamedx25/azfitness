@@ -8,7 +8,7 @@ export default class Cart extends Component{
             <NavBar />
             <div>
                 <h3>Hello from Cart 2.0 page</h3>
-               
+                
             </div>
             </div>
         )

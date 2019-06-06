@@ -45,7 +45,7 @@ class Header extends React.Component{
                         <li><Link to='/' style={linkStyles}>Home</Link></li>
                         <li><Link to='/about/' style={linkStyles}>About</Link></li>
                         {/* <li><Link to='/' style={linkStyles}>Nutrition</Link></li> */}
-                        <li><Link to='/store/' style={linkStyles}>Store</Link></li>
+                        {/* <li><Link to='/store/' style={linkStyles}>Store</Link></li> */}
                         <li><Link to='/contact/' style={linkStyles}>Contact</Link></li>
                    </ul>
                 </div>

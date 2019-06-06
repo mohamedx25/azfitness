@@ -5,6 +5,12 @@ body{
     flex-direction: row;
     width: 100%;
 }
+.pt-info{
+    color: red;
+}
+.btn{
+    background-color: green
+}
 /* Personal training section*/
 /* .pt-training{
     width: 100vw;

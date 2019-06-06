@@ -49,14 +49,16 @@ class App extends React.Component{
                 </div>
 
                 {/* fitness quote */}
-                <div className='fitness-quote'>
-                    <div className='left-side'></div>
+                <div className='fitness-quote container-fluid'>  
+                    {/* <div className='left-side'></div> */}
+                    <div className='col-lg'>
                     <div className='middle'>
                         <h3>
                         "Discipline is choosing between what you want now and what you want most"
                         </h3>
                     </div>
-                    <div className='right-side'></div>
+                    </div>
+                    {/* <div className='right-side'></div> */}
                 </div>
 
                 {/*Sports training section*/}

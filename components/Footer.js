@@ -14,29 +14,32 @@ class Footer extends React.Component{
             <div className='footer'>
                 <div className='social'> 
                      <ul>
-                        <li><a href='/'>
+                        <li><a href='https://instagram.com/a2z.fitness_?igshid=9ahgmj8qll8c' alt='instagram' target='_blank'
+                        rel='noopener noreferrer'>
                             <FontAwesomeIcon className='insta' icon={['fab', 'instagram']} size='2x'
                                 style={{
                                     color: '#517FA4'
                                 }}
                             />
                         </a></li>
-                        <li><a href='/'>
+                        <li><a href='https://instagram.com/a2z.fitness_?igshid=9ahgmj8qll8c' alt='twitter' target='_blank'
+                            rel='noopener noreferrer'>
                             <FontAwesomeIcon className='twitter' icon={['fab', 'twitter']} size='2x'
                                 style={{
                                     color: '#00ACED'
                                 }}
                             />
                         </a></li>
-                        <li><a href='/'>
+                        {/* <li><a href='/'>
                             <FontAwesomeIcon className='youtube' icon={['fab', 'youtube']} size='2x'
                                 style={{
                                     color: '#c4302b'
                                 }}
                                 
                             />    
-                        </a></li>
-                        <li><a href='/'>
+                        </a></li> */}
+                        <li><a href='https://instagram.com/a2z.fitness_?igshid=9ahgmj8qll8c' alt='twitter' target='_blank' 
+                            rel='noopener noreferrer'>
                             <FontAwesomeIcon className='linkedin' icon={['fab', 'linkedin']} size='2x'
                                 activeClassName='active'
                                 style={{

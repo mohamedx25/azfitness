@@ -52,11 +52,11 @@ class App extends React.Component{
                 <div className='fitness-quote container-fluid'>  
                     {/* <div className='left-side'></div> */}
                     <div className='col-lg'>
-                    <div className='middle'>
+                    {/* <div className='middle'> */}
                         <h3>
-                        "Discipline is choosing between what you want now and what you want most"
+                        "Discipline is choosing between what you want now vs what you want most"
                         </h3>
-                    </div>
+                    {/* </div> */}
                     </div>
                     {/* <div className='right-side'></div> */}
                 </div>
@@ -81,7 +81,7 @@ class App extends React.Component{
                 <Carousel>
                     <Carousel.Item>
                         <img 
-                            className='d-block w-100'
+                            className='d-block w-75'
                             src={soccer}
                             alt='First slide'
                             
@@ -95,7 +95,7 @@ class App extends React.Component{
                     </Carousel.Item>
                     <Carousel.Item>
                         <img 
-                            className='d-block w-100'
+                            className='d-block w-75'
                             src={beach}
                             alt='Third slide'
                             
@@ -112,7 +112,7 @@ class App extends React.Component{
                 {/* <SlideShow /> */}
 
                 {/* Group fitness section */}
-                <div className='group-training'>
+                {/* <div className='group-training'>
                     <div className='group-info'>
                         <h1>Group fitness training</h1>
                         <p>I also lead Group fitness classes at Signature Fitness, Belleville NJ and 
@@ -125,7 +125,23 @@ class App extends React.Component{
                         <video src={group} type='video/mp4' controls='controls' width='750' height='500'/>
                     </div>
                    
-                </div> 
+                </div>  */}
+
+                <div className='container-fluid'>
+                    <div className='row'>
+                        <div className='col-4 group-description'>
+                            <h1>Group fitness training</h1>
+                            <p>I also lead Group fitness classes at Signature Fitness, Belleville NJ and 
+                            Retro Fitness at wallington nj.  My group training is for any level.  My classes 
+                            are HIIT classes and whip you right into shape.  Come join my class and get to work!
+                            </p>
+                            <button className='group-btn'>Learn More</button>
+                        </div>
+                        <div className='col-8 group-video'>
+                            <video src={group} type='video/mp4' controls='controls' width='750' height='500'/>
+                        </div>
+                    </div>
+                </div>
                 <Footer />
             </div>
         );

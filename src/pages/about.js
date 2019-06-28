@@ -61,31 +61,23 @@ class About extends React.Component{
                         </div>
                     </div>
                 </div>
-                {/* <div className='services'>
-                    <div className='service-info'>
-                        <h1>A2Z Fitness Services</h1>
-                        <p>You're in good hands if you train with me!</p>
-                    </div>
-                    <div className='service-cards'>
-                        <div className='pt-card'>
-                            <h2>Personal Trainings</h2>
-                            <img src={beach} alt='personal trainer'/>
-                            <p>My personal training program will help YOU reach your 
-                                dream body. I guarantee it.</p>
+
+                <div className='container-fluid'>
+                    <div className='row'>
+                        <div className='col'>
+                            <h1>1st column</h1>
                         </div>
-                        <div className='skills-card'>
-                            <h2>Sports skills training</h2>
-                            <img src={soccer} alt='skills'/>
-                            <p>I know my program will work because I was an elite athlete
-                                and know what it will take</p>
-                        </div>
-                        <div className='gt-card'>
-                            <h2>Group fitness training</h2>
-                            <img src={group} alt='group'/>
-                            <p>My group training classes are sure to get your heart rate going</p>
+                        <div className='col'>
+                            <div className='row'>
+                                <h1>row1</h1>
+                            </div>
+                            <div className='row'>
+                                <h1>row2</h1>
+                            </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
+
                 <Cards />
                 <div className='about-join'>
                     <div className='join'>

@@ -2,7 +2,7 @@ import React from 'react'
 import '../../components/styles/Store.css'
 import NavBar from '../../components/NavBar'
 import ProductList from '../../components/ProductList'
-import Cart from './cart'
+// import Cart from './cart'
 import Default from '../../components/Default'
 
 

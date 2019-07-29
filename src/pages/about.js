@@ -46,12 +46,14 @@ class About extends React.Component{
                 <div className='journey'>
                     <div className='fit-journey'></div>
                     <div className='life-story'>
+                        
                         <div className='high-school'>
                             <h4>High School</h4>
                             <p>This section I believe I wanted to use to describe your high school experience.
                             </p>
                             {/* <img src={hsSoccer} alt='soccer' /> */}
                         </div>
+                        
                         <div className='college'>
                             <h4>College</h4>
                             <p> 
@@ -62,7 +64,7 @@ class About extends React.Component{
                     </div>
                 </div>
 
-                <div className='container-fluid'>
+                {/* <div className='container-fluid'>
                     <div className='row'>
                         <div className='col'>
                             <h1>1st column</h1>
@@ -76,7 +78,7 @@ class About extends React.Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <Cards />
                 <div className='about-join'>

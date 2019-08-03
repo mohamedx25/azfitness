@@ -5,6 +5,7 @@ import Cards from '../../components/Cards'
 import '../../components/Header.css'
 import '../../components/Footer.css'
 import '../../components/styles/About.css'
+import Bio from '../../components/Bio/Bio.js'
 // import { Wave } from 'react-animated-text'
 // import beach from '../../components/images/beach.jpg'
 // import soccer from '../../components/images/soccer.jpg'
@@ -46,39 +47,20 @@ class About extends React.Component{
                 <div className='journey'>
                     <div className='fit-journey'></div>
                     <div className='life-story'>
-                        
+                        {/* <Bio /> */}
                         <div className='high-school'>
                             <h4>High School</h4>
                             <p>This section I believe I wanted to use to describe your high school experience.
                             </p>
-                            {/* <img src={hsSoccer} alt='soccer' /> */}
                         </div>
-                        
                         <div className='college'>
                             <h4>College</h4>
                             <p> 
                                 This section I felt like would be used to briefly describe your college experience.
                             </p>
-                            {/* <img src={college} alt='college' /> */}
                         </div>
                     </div>
                 </div>
-
-                {/* <div className='container-fluid'>
-                    <div className='row'>
-                        <div className='col'>
-                            <h1>1st column</h1>
-                        </div>
-                        <div className='col'>
-                            <div className='row'>
-                                <h1>row1</h1>
-                            </div>
-                            <div className='row'>
-                                <h1>row2</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
 
                 <Cards />
                 <div className='about-join'>
